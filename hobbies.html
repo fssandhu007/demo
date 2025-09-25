@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hobbies - Farooq Shafi</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fa; color: #333; }
+    header { background: #4a90e2; padding: 20px; text-align: center; color: white; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { padding: 20px; max-width: 1000px; margin: auto; }
+    h1 { color: #4a90e2; margin-bottom: 20px; text-align: center; }
+    .hobby-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .hobby-card { background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.2s; }
+    .hobby-card:hover { transform: translateY(-5px); }
+    .hobby-card img { width: 100%; height: 160px; object-fit: cover; }
+    .hobby-card h2 { margin: 15px; color: #4a90e2; }
+    .hobby-card p { margin: 0 15px 15px; line-height: 1.6; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Hobbies</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="skills.html">Skills</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="hobby-grid">
+      
+      <div class="hobby-card">
+        <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=800&q=80" alt="Books">
+        <h2>Literature Reading</h2>
+        <p>I love exploring Urdu, Persian, English, and Punjabi literature. It deepens my cultural understanding and sharpens my creativity.</p>
+      </div>
+
+      <div class="hobby-card">
+        <img src="data:image/jpeg;base64,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" alt="Table Tennis">
+        <h2>Table Tennis</h2>
+        <p>A fast-paced game that improves reflexes and focus. I enjoy both competitive and casual play with friends.</p>
+      </div>
+
+      <div class="hobby-card">
+        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&w=800&q=80" alt="Cyber Security">
+        <h2>Cyber Security</h2>
+        <p>Exploring vulnerabilities and security solutions fascinates me. I stay updated with modern threats and defenses.</p>
+      </div>
+
+      <div class="hobby-card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Travelling">
+        <h2>Travelling</h2>
+        <p>Visiting new places inspires me to embrace diversity, discover cultures, and enjoy the beauty of our world.</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
